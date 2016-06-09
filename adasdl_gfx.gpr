@@ -1,0 +1,6 @@
+with "adasdl";
+
+project AdaSDL_gfx is
+   for Library_Name use "AdaSDL_gfx";
+   for Source_Dirs use (".");
+end AdaSDL_gfx;
