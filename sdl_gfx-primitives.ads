@@ -304,7 +304,17 @@ package SDL_gfx.Primitives is
        color : C.unsigned) return C.int;
    pragma Import(C, ellipseColor, "ellipseColor");
 
-   --TODO: function ellipseRGBA
+   function ellipseRGBA
+      (dst : SDL.Video.Surface_ptr;
+       x   : C.short;
+       y   : C.short;
+       rx  : C.short;
+       ry  : C.short;
+       r   : C.unsigned_char;
+       g   : C.unsigned_char;
+       b   : C.unsigned_char;
+       a   : C.unsigned_char) return C.int;
+   pragma Import(C, ellipseRGBA, "ellipseRGBA");
 
    --TODO: function aaellipseColor
 
