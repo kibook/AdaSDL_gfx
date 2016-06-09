@@ -276,7 +276,13 @@ package SDL_gfx.Primitives is
        a   : C.unsigned_char) return C.int;
    pragma Import(C, aacircleRGBA, "aacircleRGBA");
 
-   --TODO: function filledCircleColor
+   function filledCircleColor
+      (dst   : SDL.Video.Surface_ptr;
+       x     : C.short;
+       y     : C.short;
+       rad   : C.short;
+       color : C.unsigned) return C.int;
+   pragma Import(C, filledCircleColor, "filledCircleColor");
 
    function filledCircleRGBA
       (dst : SDL.Video.Surface_ptr;
