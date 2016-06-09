@@ -316,7 +316,14 @@ package SDL_gfx.Primitives is
        a   : C.unsigned_char) return C.int;
    pragma Import(C, ellipseRGBA, "ellipseRGBA");
 
-   --TODO: function aaellipseColor
+   function aaellipseColor
+      (dst   : SDL.Video.Surface_ptr;
+       x     : C.short;
+       y     : C.short;
+       rx    : C.short;
+       ry    : C.short;
+       color : C.unsigned) return C.int;
+   pragma Import(C, aaellipseColor, "aaellipseColor");
 
    --TODO: function aaellipseRGBA
 
