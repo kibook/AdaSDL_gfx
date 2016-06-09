@@ -315,4 +315,52 @@ package SDL_gfx.Primitives is
 
    --TODO: function filledPieRGBA
 
+   --TODO: function trigonColor
+
+   --TODO: function trigonRGBA
+
+   --TODO: function aatrigonColor
+   
+   --TODO: function aatrigonRGBA
+
+   --TODO: function filledTrigonColor
+
+   --TODO: function filledTrigonRGBA
+
+   --TODO: function polygonColor
+
+   --TODO: function polygonRGBA
+
+   --TODO: function aapolygonColor
+
+   --TODO: function aapolygonRGBA
+
+   --TODO: function filledPolygonColor
+
+   --TODO: function filledPolygonRGBA
+
+   --TODO: function texturedPolygon
+
+   --TODO: function filledPolygonColorMT
+
+   --TODO: function filledPolygonRGBAMT
+
+   --TODO: function texturedPolygonMT
+
+   --TODO: function bezierColor
+
+   --TODO: function bezierRGBA
+
+   --TODO: function SetFont
+
+   --TODO: function SetFontRotation
+
+   --TODO: function characterColor
+
+   --TODO: function characterRGBA
+
+   --TODO: function stringColor
+
+   --TODO: function stringRGBA
+
 end SDL_gfx.Primitives;
