@@ -33,4 +33,41 @@ package SDL_gfx.Image_Filter is
        length: C.unsigned) return C.int;
    pragma Import(C, Sub, "SDL_imageFilterSub");
 
+   --TODO: function AbsDiff
+   --TODO: function Mult
+   --TODO: function MultNor
+   --TODO: function MultDivby2
+   --TODO: function MultDivby4
+   --TODO: function BitAnd
+   --TODO: function BitOr
+   --TODO: function Div
+   --TODO: function BitNegation
+   --TODO: function AddByte
+   --TODO: function AddUint
+   --TODO: function AddeByteToHalf
+   --TODO: function SubByte
+   --TODO: function SubUint
+   --TODO: function ShiftRight
+   --TODO: function ShiftRightUint
+   --TODO: function MultByByte
+   --TODO: function ShiftRightAndMultByByte
+   --TODO: function ShiftLeftByte
+   --TODO: function ShiftLeftUint
+   --TODO: function ShiftLeft
+   --TODO: function BinarizeUsingThreshold
+   --TODO: function ClipToRange
+   --TODO: function NormalizeLinear
+   --TODO: function ConvolveKernel3x3Divide
+   --TODO: function ConvolveKernel5x5Divide
+   --TODO: function ConvolveKernel7x7Divide
+   --TODO: function ConvolveKernel9x9Divide
+   --TODO: function ConvolveKernel3x3ShiftRight
+   --TODO: function ConvolveKernel5x5ShiftRight
+   --TODO: function ConvolveKernel7x7ShiftRight
+   --TODO: function ConvolveKernel9x9ShiftRight
+   --TODO: function SobelX
+   --TODO: function SobelXShiftRight
+   --TODO: procedure AlignStack
+   --TODO: procedure RestoreStack
+
 end SDL_gfx.Image_Filter;
